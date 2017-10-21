@@ -5,7 +5,7 @@ URL: https://github.com/Huddle/Resemble.js
 'use strict';
 
 var PNG = require('pngjs').PNG;
-var fs = require('fs');
+var fs = require('graceful-fs');
 var jpeg = require('jpeg-js');
 
 //keeping wrong indentation and '_this' for better diff with origin resemble.js
